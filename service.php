@@ -4,13 +4,13 @@ include 'head.php';
 ?>
 
 <section class="about-us py-3" id="service-us">
-    <div class="container mt-5">
+    <div class=" mt-5">
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-7 col-lg-6">
                 <img src="img/serv-img.jpg" class="img-fluid">
 
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5 col-lg-6">
 
                 <h2 class="mx-5" style="text-align:left;"><b>We have a community eager to join you. Hire in simple
                         steps</b></h2><br>
@@ -34,12 +34,13 @@ include 'head.php';
 </section>
 
 <section>
-    <h2 class="text-center my-5" style="color:#ff771d">Process Of Hiring</h2>
+
+    <h2 class="text-center mb-5" style="color:#ff771d">Process Of Hiring</h2>
+
     <div class="d-flex justify-content-center respo-proc">
 
 
-        <div class="card mx-4 process1"
-            style="border-radius:50%; background-color:rgba(128, 128, 128, 0.129); width:11rem; height: 11rem; box-shadow: 2px 2px 10px #cfcdcd">
+        <div class="card mx-4 process1 spr" s>
 
             <div style="color:#ff771d; max-width:100%; text-align:center; margin-top:10px"><i class="fa fa-phone fa-2x"
                     aria-hidden="true"></i></div>
@@ -52,8 +53,7 @@ include 'head.php';
             <i class="fa fa-long-arrow-right fa-3x"></i>
         </div>
 
-        <div class="card  mx-4 process2"
-            style="border-radius:50%; background-color:rgba(128, 128, 128, 0.129); width:11rem; height: 11rem;  box-shadow: 2px 2px 10px #cfcdcd">
+        <div class="card  mx-4 process2 spr" style="">
             <div style="color:#ff771d; max-width:100%; text-align:center; margin-top:10px"><i class="fa fa-search fa-2x"
                     aria-hidden="true"></i></div>
 
@@ -68,8 +68,7 @@ include 'head.php';
         </div>
 
 
-        <div class="card mx-4 process3"
-            style="border-radius:50%; background-color:rgba(128, 128, 128, 0.129); width:11rem; height: 11rem; box-shadow: 2px 2px 10px #cfcdcd">
+        <div class="card mx-4 process3 spr">
             <div style="color:#ff771d; max-width:100%; text-align:center; margin-top:10px"><i class="fa fa-cogs fa-2x"
                     aria-hidden="true"></i></div>
             <div class="card-body">
@@ -82,8 +81,7 @@ include 'head.php';
         </div>
 
 
-        <div class="card mx-4 process4"
-            style="border-radius:50%; background-color:rgba(128, 128, 128, 0.129); width:11rem; height: 11rem;  box-shadow: 2px 2px 10px #cfcdcd">
+        <div class="card mx-4 process4 spr">
             <div style="color:#ff771d; max-width:100%; text-align:center; margin-top:10px"><i class="fa fa-user fa-2x"
                     aria-hidden="true"></i></div>
             <div class="card-body">
@@ -97,8 +95,7 @@ include 'head.php';
             <i class="fa fa-long-arrow-right fa-3x"></i>
         </div>
 
-        <div class="card mx-4 process5"
-            style="border-radius:50%; background-color:rgba(128, 128, 128, 0.129); width:11rem; height: 11rem;  box-shadow: 2px 2px 10px #cfcdcd">
+        <div class="card mx-4 process5 spr">
             <div style="color:#ff771d; max-width:100%; text-align:center; margin-top:10px"><i class="fa fa-users fa-2x"
                     aria-hidden="true"></i></div>
             <div class="card-body">
@@ -112,14 +109,15 @@ include 'head.php';
 </section>
 
 <section>
-<div>
-    <div class="container text-center my-5">
+
+    <div class="container text-center mt-5">
         <h1 style="color: #ff771d;">Payroll Management Outsourcing</h1>
         <div>
             <h4>Save your time and money with Talent Stag’s Payroll Management</h4>
         </div>
         <div>
-            <p> Payroll Management Outsourcing put in simple words, means delegating payroll administration to a third
+            <p> Payroll Management Outsourcing put in simple words, means delegating payroll administration to a
+                third
                 party
                 with knowledge of payroll procedures.
 
@@ -129,32 +127,88 @@ include 'head.php';
         </div>
         <div class="d-flex justify-content-center responsive">
             <div class="mx-2 col-md-4 container1 hover py-2">
-                <h2> Saves both time and money</h2>
-                Payroll processing can be a time-consuming and mind-boggling process with direct expenses. Talent Stag's
-                payroll management professionals keep records of your payments and free your staff so they can focus on
+                <h4> Saves both time and money</h4>
+                Payroll processing can be a time-consuming and mind-boggling process with direct expenses. Talent
+                Stag's
+                payroll management professionals keep records of your payments and free your staff so they can focus
+                on
                 other things.
             </div>
             <div class="mx-2 col-md-4 container1 hover py-2">
-                <h2> No need to be concerned about new rules.</h2>
-                When it comes to finances, the rules are forever evolving. Through this procedure, we monitor ways to
+                <h4> No need to be concerned about new rules.</h4>
+                When it comes to finances, the rules are forever evolving. Through this procedure, we monitor ways
+                to
                 enhance your productivity and keep you informed of any changes to the law or other regulations.
             </div>
             <div class="mx-2 col-md-4 container1 hover py-2">
-                <h2 style="margin-top: 10px;"> No more Penalties
-                </h2>
-                <p style="margin-top: 50px;">You won't have to be concerned about any fines or penalties because Talent
+                <h4 style="margin-top: 10px;"> No more Penalties
+                </h4>
+                <p style="margin-top: 50px;">You won't have to be concerned about any fines or penalties because
+                    Talent
                     Stag will work with you to keep
                     your payroll setup on time.</p>
             </div>
 
         </div>
     </div>
-</div>
-</section>
 
-<section class="text-center my-5 mx-3">
+</section>
+<div class="d-flex justify-content-end">
+
+    <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 215" width="120" height="150">
+        <title>triangle-svg</title>
+        <defs>
+            <clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+                <path d="m293 588h-1000v-1000h1000z" />
+            </clipPath>
+        </defs>
+        <style>
+            .s0 {
+                fill: none;
+                stroke: #62b5e5;
+                stroke-width: 2
+            }
+        </style>
+        <g id="Clip-Path" clip-path="url(#cp1)">
+            <g id="Layer">
+                <path id="Layer" class="s0" d="m231 197.7h-215.2l107.6-186.4z" />
+            </g>
+        </g>
+    </svg>
+    <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 215" width="50" height="50"
+        class="proc-tria">
+        <defs>
+            <clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+                <path d="m322 580h-1000v-1000h1000z" />
+            </clipPath>
+        </defs>
+        <style>
+            .a {
+                fill: #ff771d
+            }
+
+            .b {
+                fill: #62b5e5
+            }
+
+            .c {
+                fill: none;
+                stroke: #2a6588;
+                stroke-width: 2
+            }
+        </style>
+        <g clip-path="url(#cp1)">
+            <path class="a" d="m217.8 213.7h-215.3l107.7-186.4z" />
+            <path class="b" d="m238.1 199.5h-215.3l107.7-186.5z" />
+            <path class="c" d="m260 189.7h-215.2l107.6-186.4z" />
+        </g>
+    </svg>
+</div>
+
+
+<section class="text-center mb-5 mx-3" style="margin-top: -5.5rem;">
     <div class="container">
-        <h1><b style="text-decoration: underline;">Outsourcing</b></h1>
+        <h1><b style="color: #ff771d;">Outsourcing</b></h1>
         <div class="text-center mx-5">
             <p>Hire a professional to carry out duties, manage operations, or perform services for your business.
                 Nowadays, businesses outsource everything from basic to significant activities, across all divisions.
@@ -162,7 +216,6 @@ include 'head.php';
 
             </p>
         </div>
-
 
         <div class="d-flex res-out">
             <div class="container out-box">
@@ -233,6 +286,9 @@ include 'head.php';
         </div>
     </div>
 </section>
+
+
+
 <!--------types  of outsourcing------ -->
 <section>
     <div class="my-5">
@@ -247,7 +303,7 @@ include 'head.php';
             </div>
 
             <div class="row out-type" style="justify-content: flex-start;">
-                
+
                 <p class="col-6 type-text2"><b> Offshore: </b> This happens when a business hires a third party to
                     handle a specific task, typically someone who is located abroad or overseas and has expertise in the
                     task.
@@ -259,84 +315,147 @@ include 'head.php';
     </div>
 </section>
 
-<section>
-    <div>
-        <div class="container my-3">
-            <h1 style="color: #ff771d;">Background Verification</h1>
-            <div>
-                <h4>Recruit candidates who are what they claim to be.</h4>
-            </div>
-            <div>
-                <p> You choose the most qualified applicant. The candidate's abilities are a wonderful fit for your
-                    needs, and the compensation just makes you happy to have them on board. But, did you make sure it's
-                    the lawful and appropriate human resource for your business?
 
-                    It is critical to carry out a pre-employment credit check that includes consulting the applicant's
-                    references to confirm their educational background, work experience, and other essential data
-                    necessary for the offered position.
+<div style="position:relative; top: -10rem; z-index: -10;">
+    <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 215" width="150" height="150"
+        style="margin-left: 3rem;">
+        <title>triangle-svg-svg</title>
+        <defs>
+            <clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+                <path d="m285 581h-1000v-1000h1000z" />
+            </clipPath>
+            <image width="262" height="215" id="img1"
+                href="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDI2MiAyMTUiIHdpZHRoPSIyNjIiIGhlaWdodD0iMjE1Ij4KCTx0aXRsZT50cmlhbmdsZS1zdmc8L3RpdGxlPgoJPGRlZnM+CgkJPGNsaXBQYXRoIGNsaXBQYXRoVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBpZD0iY3AxIj4KCQkJPHBhdGggZD0ibTI5MyA1ODhoLTEwMDB2LTEwMDBoMTAwMHoiLz4KCQk8L2NsaXBQYXRoPgoJPC9kZWZzPgoJPHN0eWxlPgoJCS5zMCB7IGZpbGw6IG5vbmU7c3Ryb2tlOiAjOGY5NmZjO3N0cm9rZS13aWR0aDogMiB9IAoJPC9zdHlsZT4KCTxnIGlkPSJDbGlwLVBhdGgiIGNsaXAtcGF0aD0idXJsKCNjcDEpIj4KCQk8ZyBpZD0iTGF5ZXIiPgoJCQk8cGF0aCBpZD0iTGF5ZXIiIGNsYXNzPSJzMCIgZD0ibTIzMSAxOTcuN2gtMjE1LjJsMTA3LjYtMTg2LjR6Ii8+CgkJPC9nPgoJPC9nPgo8L3N2Zz4=" />
+        </defs>
+        <style>
+            .s0 {
+                fill: none;
+                stroke: #8f96fc;
+                stroke-width: 2
+            }
+        </style>
+        <g id="Clip-Path: Clip-Path" clip-path="url(#cp1)">
+            <g id="Clip-Path">
+                <g id="Layer">
+                    <path id="Layer" class="s0" d="m223 190.7h-215.2l107.6-186.4z" />
+                </g>
+            </g>
+            <use id="triangle-svg" href="#img1" transform="matrix(1,0,0,1,27,8)" />
+        </g>
+    </svg>
+</div>
 
-                    Talent Stag provides the simplest, most adaptable, and smooth employment background check experience
-                    available.
 
-                    To save you time, we make the process of setting up your account quick and easy. Our staff keeps you
-                    informed of the progress of your background check for employment.
+<section style="margin-top: -10rem;">
+    <div class="container my-3">
+        <h1 style="color: #ff771d;">Background Verification</h1>
 
-                </p>
-            </div>
+        <div>
+            <h4>Recruit candidates who are what they claim to be.</h4>
+        </div>
+        <div>
+            <p> You choose the most qualified applicant. The candidate's abilities are a wonderful fit for your
+                needs, and the compensation just makes you happy to have them on board. But, did you make sure it's
+                the lawful and appropriate human resource for your business?
 
-            <div class="d-flex" style="flex-direction: column;">
-                <div class="row">
+                It is critical to carry out a pre-employment credit check that includes consulting the applicant's
+                references to confirm their educational background, work experience, and other essential data
+                necessary for the offered position.
 
-                    <div class="col-md-2 my-2">
-                        <img class="size" src="./img/educheck.png" alt="">
+                Talent Stag provides the simplest, most adaptable, and smooth employment background check experience
+                available.
 
-                    </div>
-                    <div style="margin-top: 28px;">
-                        <h3>Education/ employer verification</h3>
-                    </div>
-                </div>
-                <div class="row">
+                To save you time, we make the process of setting up your account quick and easy. Our staff keeps you
+                informed of the progress of your background check for employment.
 
-                    <div class="col-md-2 my-2">
-                        <img class="size" src="./img/addcheck.jpg" alt="">
-                    </div>
-                    <div style="margin-top: 28px;">
-                        <h3>Social Security trace/ address verification
-                        </h3>
-                    </div>
-                </div>
-                <div class="row">
+            </p>
+        </div>
 
-                    <div class="col-md-2 my-2">
-                        <img class="size" src="./img/socialcheck.jpg" alt="">
-                    </div>
-                    <div style="margin-top: 28px;">
-                        <h3>Social Media Background Check</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2 my-2">
-                        <img class="size" src="./img/licencecheck.png" alt="">
-                    </div>
-                    <div style="margin-top: 28px;">
-                        <h3>Professional License Verification
-                        </h3>
-                    </div>
+        <div class="d-flex" style="flex-direction: column;">
+            <div class="row">
+
+                <div class="col-md-2 my-2">
+                    <img class="size" src="./img/educheck.png" alt="">
 
                 </div>
-                <div class="row">
-                    <div class="col-md-2 my-2">
-                        <img class="size" src="./img/criminalcheck.jpg" alt="">
-                    </div>
-                    <div style="margin-top: 28px;">
-                        <h3>Criminal History Search</h3>
-                    </div>
-
+                <div style="margin-top: 28px;">
+                    <h3>Education/ employer verification</h3>
                 </div>
             </div>
+            <div class="row">
+
+                <div class="col-md-2 my-2">
+                    <img class="size" src="./img/addcheck.jpg" alt="">
+                </div>
+                <div style="margin-top: 28px;">
+                    <h3>Social Security trace/ address verification
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-2 my-2">
+                    <img class="size" src="./img/socialcheck.jpg" alt="">
+                </div>
+                <div style="margin-top: 28px;">
+                    <h3>Social Media Background Check</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 my-2">
+                    <img class="size" src="./img/licencecheck.png" alt="">
+                </div>
+                <div style="margin-top: 28px;">
+                    <h3>Professional License Verification
+                    </h3>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-2 my-2">
+                    <img class="size" src="./img/criminalcheck.jpg" alt="">
+                </div>
+                <div style="margin-top: 28px;">
+                    <h3>Criminal History Search</h3>
+                </div>
+
+            </div>
+
 
         </div>
+
 </section>
+
+<div class="d-flex justify-content-end">
+    <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 215" width="100" height="100" class="last-tria">
+        <defs>
+            <clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+                <path d="m322 580h-1000v-1000h1000z" />
+            </clipPath>
+        </defs>
+        <style>
+            .a {
+                fill: #ff771d
+            }
+
+            .b {
+                fill: #62b5e5
+            }
+
+            .c {
+                fill: none;
+                stroke: #2a6588;
+                stroke-width: 2
+            }
+        </style>
+        <g clip-path="url(#cp1)">
+            <path class="a" d="m217.8 213.7h-215.3l107.7-186.4z" />
+            <path class="b" d="m238.1 199.5h-215.3l107.7-186.5z" />
+            <path class="c" d="m260 189.7h-215.2l107.6-186.4z" />
+        </g>
+    </svg>
+</div>
+
 <?php
 include 'footer.php';
 ?>
