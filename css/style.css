@@ -7,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 1rem;
   font-weight: normal;
+  scroll-behavior: smooth;
 }
 
 .dev {
@@ -32,7 +33,10 @@ body {
   font-size: 1.2rem;
   font-weight: 500;
 }
-
+.swiper {
+  width: 900px;
+  
+}
 .nav-link {
   font-size: 18px;
   line-height: 52px;
@@ -1452,10 +1456,10 @@ p.awesome_line {
 }
 
 .hover:hover {
-  background-color: #a9b6fc;
+  background-color: #efefef;
 
-  transition-delay: 4ms;
-  transition-duration: 1s;
+  transition-delay: 2ms;
+  transition-duration: 5ms;
 }
 
 .size {
@@ -1547,6 +1551,9 @@ p.awesome_line {
     line-height: 30px;
   }
 
+  .res-test{
+    flex-direction: column;
+  }
   .banner-btn {
     font-size: 0.9rem;
   }
