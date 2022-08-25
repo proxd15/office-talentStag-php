@@ -7,7 +7,6 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 1rem;
   font-weight: normal;
-  scroll-behavior: smooth;
 }
 
 .dev {
@@ -33,10 +32,7 @@ body {
   font-size: 1.2rem;
   font-weight: 500;
 }
-.swiper {
-  width: 900px;
-  
-}
+
 .nav-link {
   font-size: 18px;
   line-height: 52px;
@@ -196,6 +192,10 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.card-img:hover{
+  zoom:80%;
 }
 
 header h1 {
@@ -1277,13 +1277,21 @@ p.awesome_line {
 .process1 {
   animation-name: process1;
   animation-duration: 4s;
+  animation-direction: left;
   /* animation-iteration-count: infinite; */
+}
+
+.spr {
+  border-radius: 50%;
+  background-color: rgba(128, 128, 128, 0.129);
+  width: 11rem;
+  height: 11rem;
+  box-shadow: 2px 2px 10px #cfcdcd
 }
 
 @keyframes process1 {
   0% {
-    background-color: #62b5e5;
-    color: white;
+    left: 100%;
   }
 }
 
@@ -1441,25 +1449,35 @@ p.awesome_line {
   background-image: linear-gradient(132deg, #62b5e5, #62b5e5, #ff771d);
   padding-bottom: 2rem;
 }
-.imh{
-  text-align: center;margin-left:10px; font-size: 40px; 
-    margin: 20px 15px;
+
+.imh {
+  text-align: center;
+  margin-left: 10px;
+  font-size: 40px;
+  margin: 20px 15px;
 }
-.logoimg{
+
+.logoimg {
   height: 55px;
 }
-.iwu{
-  background-color:rgba(128, 128, 128, 0.129); padding: 3rem;
+
+.iwu {
+  background-color: rgba(128, 128, 128, 0.129);
+  padding: 3rem;
 }
-.icw{
-  padding: 1rem 1rem 0.5rem 1rem; height: 324px
+.swiper{
+  width:900px;
+}
+.icw {
+  padding: 1rem 1rem 0.5rem 1rem;
+  height: 324px
 }
 
 .hover:hover {
-  background-color: #efefef;
+  background-color: #cecece;
 
-  transition-delay: 2ms;
-  transition-duration: 5ms;
+  transition-delay: 4ms;
+  transition-duration: 5mss;
 }
 
 .size {
@@ -1467,17 +1485,21 @@ p.awesome_line {
   height: 5rem;
   border-radius: 50%;
 }
-.nav-link{
+
+.nav-link {
   text-decoration: none;
-  color:#fff!important;
-  margin-right:18px;
-  margin-left:18px;
+  color: #fff !important;
+  margin-right: 18px;
+  margin-left: 18px;
 }
-.btn-cus{
-  background:#ff771d;
-  color:#fff;
-}.active{
-  color: #ff771d!important;
+
+.btn-cus {
+  background: #ff771d;
+  color: #fff;
+}
+
+.active {
+  color: #ff771d !important;
 }
 
 .type-icon {
@@ -1532,6 +1554,35 @@ p.awesome_line {
 
 }
 
+.why-tria{
+  position: relative;
+  top: -8rem;
+
+}
+
+.why-top-tria{
+  position: relative;
+  top: -7rem;
+  right: -7rem;
+}
+
+.banner-tria{
+  position: relative;
+  top: -2rem;
+  right: -15rem;
+}
+
+.last-tria{
+  position:relative; 
+  margin-top:-7rem;
+  transform: rotate(45deg);
+  
+}
+
+.proc-tria{
+  position: relative;
+  right: 3rem;
+}
 .out-type {
   flex-direction: row;
   margin-right: 0px;
@@ -1542,8 +1593,23 @@ p.awesome_line {
   margin-top: 3.5rem;
 
 }
+.text{
+  text-align: center;
+}
+.flex-res-c{
+  justify-content: end;
+}
 
+@media only screen and (min-device-width : 600px) and (max-device-width : 1200px) {
 
+  .arrow {
+    display: none;
+  }
+
+  .respo-proc {
+    flex-wrap: wrap;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .banner-btn h1 {
@@ -1551,45 +1617,68 @@ p.awesome_line {
     line-height: 30px;
   }
 
-  .res-test{
-    flex-direction: column;
+  .mainfooter {
+    padding: 0px;
   }
+  .flex-res{
+    flex-direction: column;
+    justify-content: left ;
+  }
+  .text{
+    text-align: center;
+  }
+  .flex-res-c{
+    justify-content: center;
+  }
+
+
+  .foot-res {
+    flex-direction: row;
+  }
+
   .banner-btn {
     font-size: 0.9rem;
   }
-  .logoimg{
+
+  .logoimg {
     height: 35px;
   }
+
   .imh {
     font-size: 22px;
   }
+
   .responsive {
     flex-direction: column;
-}
-.respo-proc {
-  flex-direction: column;
-  align-items: center;
+  }
 
-}
+  .respo-proc {
+    flex-direction: column;
+    align-items: center;
 
-.arrow {
-  margin-top: 0rem;
-  transform: rotate(90deg);
-  margin: 10px;
-}
+  }
 
-.resp-out {
-  flex-direction: column;
-}
+  .arrow {
+    margin-top: 0rem;
+    transform: rotate(90deg);
+    margin: 10px;
+  }
 
-.type-text1 {
-  margin-left: 0rem;
-  margin-right: 2rem;
-}
-.res-out{
-  flex-direction: column;
-}
-.join-pic{
-  width: 7rem;
-}
+  .resp-out {
+    flex-direction: column;
+  }
+
+  .type-text1 {
+    margin-left: 0rem;
+    margin-right: 2rem;
+  }
+
+  .res-out {
+    flex-direction: column;
+  }
+
+  .join-pic {
+    width: 7rem;
+    margin-top: -3rem;
+  }
 }
