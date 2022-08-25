@@ -16,18 +16,24 @@ include 'head.php';
     body {
         scroll-behavior: smooth;
     }
-    .img-s{
+
+    .img-s {
         width: 120px;
         height: 120px;
         border-radius: 50%;
         margin: auto;
     }
-    .cardwh{
+
+    .cardwh {
         border-radius: 20px;
-        background-color:#cccccc;
-       
+        background-color: #cccccc;
+
+    }
+    .mt-l{
+        margin-top: -10rem;
     }
 </style>
+
 <section class="is1">
     <div class="container-fluid">
         <div class="row">
@@ -87,115 +93,172 @@ include 'head.php';
                             style="height: 52%;"></div>
                 </div>
             </div>
-            </div> -->
-<!-- </div>
-    </div>
-</section> -->
+            <!-- </div> -->
+</div>
+</div>
+</section>
+
 <section>
     <!-- why choose us section -->
     <div class="container-fluid my-5 iwu">
         <h1 style="text-align: center">Why Choose Us</h1>
+
         <div class="row ">
             <div class="container-fluid ">
                 <div class="row card1 d-flex justify-content-center">
 
-                    <div class="col-md-3 col-sm-6">
-                        <div style="position: relative;">
-                            <div class="card icw">
+                    <div class="col-md-4 col-sm-6 col-lg-3">
+                        <div>
+                            <div class="card res-card icw my-2">
                                 <div class="card-body">
-                                    <i class="fa fa-address-book fa-2x" style="margin-bottom:1rem;"></i>
-                                    <h5 class="card-title"><b>Quick Hiring</b></h5>
-                                    <p class="card-text" style="font-size: 12px">Now, hire freelancers and candidates
-                                        within 24 hours to accomplish your business goals. Easily get exactly what you
-                                        need, or scale up and down as per your requirements. Whether you need to recruit
-                                        for full-time or on an hourly basis; we are right here!</p>
+                                    <i class="fa fa-spinner fa-3x" style="margin-bottom:1rem; color: #ff771d;"></i>
+                                    <h5 class="card-title"><b>A Successful Hiring Process</b></h5>
+                                    <p class="card-text" style="font-size: 12px">Your time may be taken up by
+                                        administrative activities. We take care of everything so you can unwind and let
+                                        us identify the best candidate for your business.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-6">
-                        <div style="position: relative;">
-                            <div class="card icw">
+                    <div class="col-md-4 col-sm-6 col-lg-3">
+                        <div>
+                            <div class="card res-card icw my-2">
                                 <div class="card-body">
-                                    <i class="fa fa-address-book fa-2x" style="margin-bottom:1rem;"></i>
-                                    <h5 class="card-title"><b>Certified And Knowledgeable Experts</b></h5>
-                                    <p class="card-text" style="font-size: 12px">Now, hire freelancers and candidates
-                                        within 24 hours to accomplish your
-                                        business goals. Easily get exactly
-                                        what you need, or scale up and down
-                                        as per your requirements. Whether
-                                        you need to recruit for
+                                    <i class="fa fa-user fa-3x" style="margin-bottom:1rem; color: #ff771d;"></i>
+                                    <h5 class="card-title"><b>Engage Suitably with Qualified Applicants</b></h5>
+                                    <p class="card-text" style="font-size: 12px">We have a pool of excellent people with
+                                        specialized skills from which we exclusively obtain candidates for you.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-lg-3">
+                        <div>
+                            <div class="card res-card icw my-2 ">
+                                <div class="card-body">
+                                    <i class="fa fa-cog fa-3x" style="margin-bottom:1rem; color: #ff771d;"></i>
+                                    <h5 class="card-title"><b>Quick Data-Driven Hiring</b></h5>
+                                    <p class="card-text" style="font-size: 12px">Vacant roles frequently cost money and
+                                        cause delays in operations. Talent Stag keeps the business on track with its
+                                        data-driven hiring process and works with specific recruitment KPIs that don't
+                                        require much time or manual labor.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div style="position: relative">
-                            <div class="card icw">
-                                <div class="card-body">
-                                    <i class="fa fa-address-book fa-2x" style="margin-bottom:1rem;"></i>
-                                    <h5 class="card-title"><b>Ready For Future Challenges</b></h5>
-                                    <p class="card-text" style="font-size: 12px">Now, hire freelancers and candidates
-                                        within 24 hours to accomplish your
-                                        business goals. Easily get exactly
-                                        what you need, or scale up and down
-                                        as per your requirements. Whether
-                                        you need to recruit for full-time or on
-                                        an hourly basis; we are right here!</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
+                    <div class="why-top-tria">
+                        <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 215" width="80"
+                            height="100">
+                            <defs>
+                                <clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+                                    <path d="m322 580h-1000v-1000h1000z" />
+                                </clipPath>
+                            </defs>
+                            <style>
+                                .a {
+                                    fill: #ff771d
+                                }
+
+                                .b {
+                                    fill: #62b5e5
+                                }
+
+                                .c {
+                                    fill: none;
+                                    stroke: #62b5e5;
+                                    stroke-width: 2
+                                }
+                            </style>
+                            <g clip-path="url(#cp1)">
+                                <path class="a" d="m217.8 213.7h-215.3l107.7-186.4z" />
+                                <path class="b" d="m238.1 199.5h-215.3l107.7-186.5z" />
+                                <path class="c" d="m260 189.7h-215.2l107.6-186.4z" />
+                            </g>
+                        </svg>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="why-tria">
+        <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 215" width="200" height="200">
+            <defs>
+                <clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+                    <path d="m322 580h-1000v-1000h1000z" />
+                </clipPath>
+            </defs>
+            <style>
+                .a {
+                    fill: #2a6588
+                }
+
+                .b {
+                    fill: #62b5e5
+                }
+
+                .c {
+                    fill: none;
+                    stroke: #ff771d;
+                    stroke-width: 2
+                }
+            </style>
+            <g clip-path="url(#cp1)">
+                <path class="a" d="m217.8 213.7h-215.3l107.7-186.4z" />
+                <path class="b" d="m238.1 199.5h-215.3l107.7-186.5z" />
+                <path class="c" d="m260 189.7h-215.2l107.6-186.4z" />
+            </g>
+        </svg>
+    </div>
 </section>
 
 <section>
-    <h1 style="text-align: center">Major Industries</h1>
-    <div class="maj-indus">
+    <div class="mt-l">
+        <h1 style="text-align: center">Major Industries</h1>
+        <div class="maj-indus">
 
-        <div style="width: 15rem; margin: 1rem">
-            <img src="img/Itsector.jpg" class="card-img-top card-img" alt="...">
-            <div class="card-body text-center">
-                <h5 class="card-title"> <b> IT Sector</b></h5>
-                <p>Some quick example text to build on the card.</p>
+            <div style="width: 15rem; margin: 1rem">
+                <img src="img/Itsector.jpg" class="card-img-top card-img" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title"> <b> IT Sector</b></h5>
+                    <p>Some quick example text to build on the card.</p>
+                </div>
             </div>
-        </div>
 
-        <div style="width: 15rem; margin: 1rem">
-            <img src="img/bpo.jpg" class="card-img-top card-img" alt="...">
-            <div class="card-body text-center">
-                <h5 class="card-title"> <b> BPO</b></h5>
-                <p>Some quick example text to build on the card.</p>
+            <div style="width: 15rem; margin: 1rem">
+                <img src="img/bpo.jpg" class="card-img-top card-img" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title"> <b> BPO</b></h5>
+                    <p>Some quick example text to build on the card.</p>
+                </div>
             </div>
-        </div>
 
-        <div style="width: 15rem; margin: 1rem">
-            <img src="img/edtech.jpg" class="card-img-top card-img" alt="...">
-            <div class="card-body text-center">
-                <h5 class="card-title"> <b>EdTech</b> </h5>
-                <p>Some quick example text to build on the card.</p>
+            <div style="width: 15rem; margin: 1rem">
+                <img src="img/edtech.jpg" class="card-img-top card-img" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title"> <b>EdTech</b> </h5>
+                    <p>Some quick example text to build on the card.</p>
+                </div>
             </div>
-        </div>
 
-        <div style="width: 15rem; margin: 1rem">
-            <img src="img/ites.jpg" class="card-img-top card-img" alt="...">
-            <div class="card-body text-center">
-                <h5 class="card-title"> <b>ITES</b></h5>
-                <p>Some quick example text to build on the card.</p>
+            <div style="width: 15rem; margin: 1rem">
+                <img src="img/ites.jpg" class="card-img-top card-img" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title"> <b>ITES</b></h5>
+                    <p>Some quick example text to build on the card.</p>
+                </div>
             </div>
-        </div>
 
-        <div style="width: 15rem; margin: 1rem">
-            <img src="img/healthcare.jpg" class="card-img-top card-img" alt="...">
-            <div class="card-body text-center">
-                <h5 class="card-title"> <b>Health Care</b></h5>
-                <p>Some quick example text to build on the card.</p>
+            <div style="width: 15rem; margin: 1rem">
+                <img src="img/healthcare.jpg" class="card-img-top card-img" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title"> <b>Health Care</b></h5>
+                    <p>Some quick example text to build on the card.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -203,15 +266,27 @@ include 'head.php';
 </section>
 
 <section>
+
     <div class="text-center" style="background-color:#62b5e5; padding:3rem">
-        <h2 style="color: #ff771d; margin-bottom:1rem"><b>You Deserve the Best Job!</b></h2>
+
+        <div class="d-flex justify-content-center">
+
+            <h2 style="color: #ff771d; margin-bottom:1rem"><b>You Deserve the Best Job!</b></h2>
+
+
+        </div>
+
+
         <p class="col-lg-12">Ipsum has been
             the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
             of type and scrambled it to make a type specimen book. It has survived not</p>
 
         <button class="join-btn mx-2" type="submit"> <a type="button" href="Enquiryfotm.html">Join Us Today</a></button>
+
+
         <button class="ft-btn mx-2"><a href="contact.php" style="color:black">Contact</a></button>
     </div>
+
     <img src="img/join.png" class="join-pic" alt="">
 </section>
 
@@ -266,7 +341,7 @@ include 'head.php';
                             card's content.</p>
                     </div>
                 </div>
-            
+
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -275,8 +350,9 @@ include 'head.php';
 
     </div>
 </section>
+
 <section>
-    <div class="container-fluid my-3">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12">
                 <h1 style="text-align:center;">FAQ's</h1>
@@ -505,29 +581,6 @@ include 'footer.php';
     })
 </script>
 <!-- owl-carousel end -->
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-<!-- Initialize Swiper -->
-<script>
-    var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        slidesPerGroup: 3,
-        loop: true,
-        loopFillGroupWithBlank: true,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-    });
-</script>
-</body>
-
-</html>
 <script>
     let question = document.querySelectorAll(".question");
 
@@ -548,6 +601,27 @@ include 'footer.php';
         })
     })
 
+</script>
+<!-- owl-carousel end -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
 </script>
 <script>
     function readURL(input, imgControlName) {
