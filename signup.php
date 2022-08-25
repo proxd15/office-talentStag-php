@@ -16,7 +16,7 @@ include 'head.php';
         }
 </style>
         <form >
-            <div class="container" id="form-control" style="margin-top: 130px;">
+            <div class="container" id="form-control" style="margin-top: 80px; margin-bottom: 80px">
                 <div class="card">
                   <div class="card-header">
                     <h3 class="text-center">Create a New Account</h3>
