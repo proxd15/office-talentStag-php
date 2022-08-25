@@ -11,6 +11,20 @@ include 'head.php';
             flex-direction: column;
         }
     }
+    body {
+        scroll-behavior: smooth;
+    }
+    .img-s{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin: auto;
+    }
+    .cardwh{
+        border-radius: 20px;
+        background-color:#cccccc;
+       
+    }
 </style>
 <section class="is1">
     <div class="container-fluid">
@@ -144,49 +158,41 @@ include 'head.php';
     <div class="maj-indus">
 
         <div style="width: 15rem; margin: 1rem">
-            <img src="image/04.png" class="card-img-top card-img" alt="...">
-            <div class="card-body text-center" >
-                <h5 class="card-title"> <b> Web Development</b></h5>
+            <img src="img/Itsector.jpg" class="card-img-top card-img" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title"> <b> IT Sector</b></h5>
                 <p>Some quick example text to build on the card.</p>
             </div>
         </div>
 
         <div style="width: 15rem; margin: 1rem">
-            <img src="image/04.png" class="card-img-top card-img" alt="...">
-            <div class="card-body text-center" >
-                <h5 class="card-title"> <b> App Development</b></h5>
+            <img src="img/bpo.jpg" class="card-img-top card-img" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title"> <b> BPO</b></h5>
                 <p>Some quick example text to build on the card.</p>
             </div>
         </div>
 
         <div style="width: 15rem; margin: 1rem">
-            <img src="image/04.png" class="card-img-top card-img" alt="...">
-            <div class="card-body text-center" >
-                <h5 class="card-title"> <b>Manager</b> </h5>
+            <img src="img/edtech.jpg" class="card-img-top card-img" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title"> <b>EdTech</b> </h5>
                 <p>Some quick example text to build on the card.</p>
             </div>
         </div>
 
         <div style="width: 15rem; margin: 1rem">
-            <img src="image/04.png" class="card-img-top card-img" alt="...">
-            <div class="card-body text-center" >
-                <h5 class="card-title"> <b> Sales Manager</b></h5>
+            <img src="img/ites.jpg" class="card-img-top card-img" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title"> <b>ITES</b></h5>
                 <p>Some quick example text to build on the card.</p>
             </div>
         </div>
 
         <div style="width: 15rem; margin: 1rem">
-            <img src="image/04.png" class="card-img-top card-img" alt="...">
-            <div class="card-body text-center" >
-                <h5 class="card-title"> <b> Card title</b></h5>
-                <p>Some quick example text to build on the card.</p>
-            </div>
-        </div>
-
-        <div style="width: 15rem; margin: 1rem">
-            <img src="image/04.png" class="card-img-top card-img" alt="...">
-            <div class="card-body text-center" >
-                <h5 class="card-title"> <b> Card title</b></h5>
+            <img src="img/healthcare.jpg" class="card-img-top card-img" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title"> <b>Health Care</b></h5>
                 <p>Some quick example text to build on the card.</p>
             </div>
         </div>
@@ -195,20 +201,76 @@ include 'head.php';
 </section>
 
 <section>
-
     <div class="text-center" style="background-color:#62b5e5; padding:3rem">
         <h2 style="color: #ff771d; margin-bottom:1rem"><b>You Deserve the Best Job!</b></h2>
         <p class="col-lg-12">Ipsum has been
             the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
             of type and scrambled it to make a type specimen book. It has survived not</p>
-
         <button class="join-btn mx-2" type="submit"> <a type="button" href="Enquiryfotm.html">Join Us Today</a></button>
-
-
         <button class="ft-btn mx-2"><a href="contact.php" style="color:black">Contact</a></button>
     </div>
-
     <img src="img/join.png" class="join-pic" alt="">
+</section>
+
+<section>
+    <div class="container">
+        <div>
+            <h1 class="text-center my-3">Testimonials</h1>
+            <h5 class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque at earum explicabo
+                voluptates nihil, saepe debitis libero culpa! Culpa, maxime.</h5>
+        </div>
+        <div class="swiper mySwiper my-3">
+            <div class="swiper-wrapper d-flex res-test">
+                <div class="swiper-slide card cardwh" style="width: 18rem;">
+                    <img class="card-img-top img-s my-1" src="img/insta.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide card cardwh" style="width: 18rem;">
+                    <img class="card-img-top img-s my-1" src="img/insta.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide card cardwh" style="width: 18rem;">
+                    <img class="card-img-top img-s my-1" src="img/insta.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
 </section>
 
 <section>
