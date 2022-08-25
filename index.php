@@ -5,12 +5,14 @@ include 'head.php';
 
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 <style>
     @media only screen and (max-width: 600px) {
         .responsive {
             flex-direction: column;
         }
     }
+
     body {
         scroll-behavior: smooth;
     }
@@ -85,8 +87,8 @@ include 'head.php';
                             style="height: 52%;"></div>
                 </div>
             </div>
-            <!-- </div> -->
-        </div>
+            </div> -->
+<!-- </div>
     </div>
 </section> -->
 <section>
@@ -114,7 +116,7 @@ include 'head.php';
 
                     <div class="col-md-3 col-sm-6">
                         <div style="position: relative;">
-                            <div class="card icw" >
+                            <div class="card icw">
                                 <div class="card-body">
                                     <i class="fa fa-address-book fa-2x" style="margin-bottom:1rem;"></i>
                                     <h5 class="card-title"><b>Certified And Knowledgeable Experts</b></h5>
@@ -131,7 +133,7 @@ include 'head.php';
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div style="position: relative">
-                            <div class="card icw" >
+                            <div class="card icw">
                                 <div class="card-body">
                                     <i class="fa fa-address-book fa-2x" style="margin-bottom:1rem;"></i>
                                     <h5 class="card-title"><b>Ready For Future Challenges</b></h5>
@@ -206,6 +208,7 @@ include 'head.php';
         <p class="col-lg-12">Ipsum has been
             the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
             of type and scrambled it to make a type specimen book. It has survived not</p>
+
         <button class="join-btn mx-2" type="submit"> <a type="button" href="Enquiryfotm.html">Join Us Today</a></button>
         <button class="ft-btn mx-2"><a href="contact.php" style="color:black">Contact</a></button>
     </div>
@@ -272,9 +275,8 @@ include 'head.php';
 
     </div>
 </section>
-
 <section>
-    <div class="container-fluid">
+    <div class="container-fluid my-3">
         <div class="row">
             <div class="col-12">
                 <h1 style="text-align:center;">FAQ's</h1>
@@ -503,6 +505,29 @@ include 'footer.php';
     })
 </script>
 <!-- owl-carousel end -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+</body>
+
+</html>
 <script>
     let question = document.querySelectorAll(".question");
 
@@ -552,7 +577,7 @@ include 'footer.php';
     }, 3000);
 </script>
 <script>
-    let dv = $( window ).width();
+    let dv = $(window).width();
     let elw = dv / 5;
     let slw = elw * 12;
     let lpx = elw;
@@ -566,9 +591,10 @@ include 'footer.php';
             lpx = 0;
         }
     }, 1500);
-    console.log($( window ).width());
-    console.log($( document ).width());
+    console.log($(window).width());
+    console.log($(document).width());
 </script>
+<script src="https://kit.fontawesome.com/c378079259.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
